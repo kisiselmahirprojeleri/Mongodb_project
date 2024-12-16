@@ -1,6 +1,6 @@
 Öğrenciler okulun kantininde bazı almış olduğu eşyaları veritabanında kayıt eden bir sistem ekleyin
 
-mani.py de 5 tane document ekleyin fieldler aşağıdaki gibi olsun
+main.py de 5 tane document ekleyin fieldler aşağıdaki gibi olsun
 {'_id :1,'item':'kalem','price':10,'miktar':2,datetime.datetime.utcnow()}
 [
         {"_id": 1, "item": "kalem", "price": 10, "quantity": 2, "date": dt.datetime.utcnow()},
@@ -11,7 +11,7 @@ mani.py de 5 tane document ekleyin fieldler aşağıdaki gibi olsun
     ]
 gibi veriler içine ekleyin
 
-ikinci olarak öğrenciler_veri_tabanı klasörünün içine stores_db.py isimli b,r python dosyası oluşturun.
+ikinci olarak öğrenciler_veri_tabanı klasörünün içine stores_db.py isimli bir python dosyası oluşturun.
 
 içinde storesDB isimli bir sınıf oluşturun ve MongoDbConnect den miras alsın
 __init__ methodunda collection ismi 'kantin'olsun
